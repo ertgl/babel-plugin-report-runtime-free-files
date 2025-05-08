@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.partial.base.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "noCheck": true
+  },
+  "include": [
+    "./dist/esm/**/*"
+  ]
+}

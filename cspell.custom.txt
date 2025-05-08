@@ -1,0 +1,12 @@
+# Brace style
+allman
+
+# File-system
+dirent
+dirents
+
+# JavaScript, TypeScript, JSX
+cjsx
+ctsx
+mjsx
+mtsx
