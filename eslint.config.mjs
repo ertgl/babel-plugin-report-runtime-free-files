@@ -40,10 +40,11 @@ const PATTERN_JS_JSX_TS_TSX = `**/*.{js,jsx,ts,tsx}`;
 const PATTERN_MJS_MJSX_MTS_MTSX = `**/*.{mjs,mjsx,mts,mtsx}`;
 
 /**
- * @type {Linter.Config["languageOptions"]}
+ * @satisfies {Linter.Config["languageOptions"]}
  */
 const eslintBaseLanguageOptions = {
   parserOptions: {
+    ecmaFeatures: {},
     projectService: true,
     tsconfigRootDir: __dirname,
     warnOnUnsupportedTypeScriptVersion: false,
@@ -183,7 +184,7 @@ export default defineConfig([
       parserOptions: {
         ...eslintBaseLanguageOptions.parserOptions,
         ecmaFeatures: {
-          ...eslintBaseLanguageOptions.parserOptions?.ecmaFeatures,
+          ...eslintBaseLanguageOptions.parserOptions.ecmaFeatures,
           jsx: true,
         },
       },
