@@ -3,9 +3,8 @@ import type {
   Visitor,
 } from "@babel/core";
 
-import type { VisitorOptions } from "./visitor-options";
-
 import { isProgramRuntimeFree } from "./program";
+import type { VisitorOptions } from "./visitor-options";
 
 export function createVisitor(
   options?: null | VisitorOptions,
