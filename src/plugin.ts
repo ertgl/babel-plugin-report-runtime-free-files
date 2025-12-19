@@ -4,7 +4,6 @@ import {
 } from "@babel/helper-plugin-utils";
 
 import type { Options } from "./plugin-options";
-
 import { createVisitor } from "./visitor";
 
 export const plugin = declare<Options>(
