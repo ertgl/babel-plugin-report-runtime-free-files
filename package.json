@@ -45,7 +45,7 @@
     "@changesets/cli": "^2.29.3",
     "@commitlint/cli": "^20.0.0",
     "@commitlint/config-conventional": "^20.0.0",
-    "@cspell/eslint-plugin": "^9.0.1",
+    "@cspell/eslint-plugin": "^10.0.0",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.0.0",
     "@types/babel__core": "^7.20.5",
