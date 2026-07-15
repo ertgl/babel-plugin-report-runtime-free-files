@@ -283,9 +283,7 @@ function transpileCode(
       presets: [
         [
           require.resolve("@babel/preset-typescript"),
-          {
-            dts: true,
-          },
+          {},
         ],
       ],
       root: __dirname,
