@@ -1,5 +1,5 @@
-import type { BabelFile } from "@babel/core";
+import type { File } from "@babel/core";
 
 export type PreHandlerFunction = (
-  file: BabelFile,
+  file: File,
 ) => void;
