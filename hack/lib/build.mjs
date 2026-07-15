@@ -101,9 +101,8 @@ export function buildBootstrapped(
     /**
      * @type {boolean}
      */
-    // @ts-expect-error - `isRuntimeFree` is not typed.
     // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-    const isTranspiledCodeRuntimeFree = transpiledCode.metadata?.isRuntimeFree ?? false;
+    const isTranspiledCodeRuntimeFree = transpiledCode.metadata.isRuntimeFree ?? false;
 
     if (isTranspiledCodeRuntimeFree)
     {
