@@ -5,7 +5,7 @@
     "emitDeclarationOnly": true,
     "noEmit": false,
     "outDir": "./dist/types",
-    "rootDir": ".",
+    "rootDir": "./src",
     "sourceMap": true
   }
 }
